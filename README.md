@@ -14,7 +14,7 @@ It contains firmware, documentation, and supporting files for experimenting with
 - Automotive signal monitoring  
 - Modular firmware design  
 - Expandable for IoT integration  
-
+![Schematic](assets/s.png)
 ##  Requirements
 - ESP8266 (ESP-01, NodeMCU, or similar)  
 - Arduino IDE / PlatformIO  
