@@ -1,20 +1,7 @@
 /*
   Auto Master — ESP8266 Battery Dashboard (Final)
   Author: Dwaipayan Shikari
-  -----------------------------------------------
-  - Runs ESP8266 in AP mode and serves a responsive web dashboard
-  - Reads battery data from MCP2515 (8 MHz crystal only)
-  - Falls back to realistic simulation if MCP2515 is not present
-  - Supports up to 32 cells, adjustable from the web UI
-  - Allows setting a pack current (A) which is persisted and sent via CAN
-  - Saves preferences to EEPROM (cell count and current)
-  - Hardware mapping below (as requested):
-      MCP2515 CS   -> GPIO16 (D0)
-      MCP2515 INT  -> GPIO4  (D2)
-      MCP2515 SPI  -> HSPI (D5=CLK, D6=MISO, D7=MOSI)
-      MCP2515 Crystal: 8 MHz (only)
-  - Default CAN baud: 250 kbps
-  - Beautifully commented and organized for readability
+
 */
 
 #include <ESP8266WiFi.h>
